@@ -1,0 +1,59 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Cartão principal */
+.card {
+  background-color: #1e1e1e;
+  border: 3px solid #ff007f; /* Rosa choque */
+  border-radius: 16px;
+  padding: 30px;
+  text-align: center;
+  max-width: 400px;
+  box-shadow: 0 0 20px rgba(255, 0, 127, 0.4);
+}
+
+/* Título */
+.titulo {
+  color: #ff007f;
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Texto da mensagem */
+.mensagem {
+  font-size: 18px;
+  color: #e0e0e0;
+  margin: 20px 0;
+  min-height: 60px;
+  line-height: 1.4;
+}
+
+/* Botão estilizado */
+.botao {
+  background-color: #ff007f;
+  color: #ffffff;
+  border: 2px solid #8a2be2; /* Roxo */
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #8a2be2;
+  border-color: #ff007f;
+  box-shadow: 0 0 10px #8a2be2;
+}
+
